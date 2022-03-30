@@ -38,7 +38,7 @@ public class ModelDialogsDemo {
 		By cancelButton = new By.ByXPath("//span[contains(.,'×')] ");
 		By closeButton = new By.ByCssSelector("button#closeLargeModal");
 		By smallModelHeaderText= new By.ByXPath("//div[@class='modal-title h4'][contains(.,'Small Modal')]");
-		By largeModelHeaderText= new By.ByXPath("//div[@class='modal-title h4'][contains(.,'Large Modal')]");
+		By largeModelHeaderText= new By.ByXPath("//div[@class='modal-title h4'][contains(.,'Large Modal gbbhb')]");
 
 		Assert.assertTrue(driver.findElement(smallModelButton).isDisplayed(), "small Model button not displayed");
 		Assert.assertTrue(driver.findElement(largeModelButton).isDisplayed(), "large Model button not displayed");
