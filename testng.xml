@@ -3,13 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     <!--  <class name="demo.toolsqa.alertsframesandwindows.FrameAndNestedFrameDemo"/>
-      <class name="demo.toolsqa.widgets.AccordianDemo"/>
-      <class name="demo.toolsqa.alertsframesandwindows.AlertsDemo"/>
-      <class name="demo.toolsqa.screenRecorder.DescriptorImpl"/>
-      <class name="demo.toolsqa.alertsframesandwindows.BrowserWindowsDemo"/> -->
-      <class name="demo.toolsqa.alertsframesandwindows.ModelDialogsDemo"/>
-     <!--  <class name="demo.toolsqa.screenRecorder.ScreenRecorderBuildWrapper"/> -->
+      <class name="demo.toolsqa.alertsframesandwindows.ModelDialogsDemo">
+      	<methods>
+      		<include name="ModelDialogs"/>
+      	</methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
