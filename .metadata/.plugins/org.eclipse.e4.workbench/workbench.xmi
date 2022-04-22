@@ -161,7 +161,8 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_atMwga_wEeya6tSMNzygzQ" elementId="stickyFolderRight" containerData="2500" selectedElement="_atMwg6_wEeya6tSMNzygzQ">
+      <children xsi:type="basic:PartStack" xmi:id="_atMwga_wEeya6tSMNzygzQ" elementId="stickyFolderRight" visible="false" containerData="2500" selectedElement="_atMwg6_wEeya6tSMNzygzQ">
+        <tags>Minimized</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_atMwgq_wEeya6tSMNzygzQ" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_atLiYK_wEeya6tSMNzygzQ" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Help</tags>
@@ -335,7 +336,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aw0FMK_wEeya6tSMNzygzQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aw49sK_wEeya6tSMNzygzQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_adEC46_wEeya6tSMNzygzQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_lpV7IMCdEey7WOhKROfKCw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_adEC46_wEeya6tSMNzygzQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aw0FMa_wEeya6tSMNzygzQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -363,7 +364,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aw0sQK_wEeya6tSMNzygzQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aw6y4K_wEeya6tSMNzygzQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_adC00K_wEeya6tSMNzygzQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_lpZlgMCdEey7WOhKROfKCw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_adC00K_wEeya6tSMNzygzQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aw0sQa_wEeya6tSMNzygzQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -403,7 +404,12 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_acZ7ea_wEeya6tSMNzygzQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.platform" side="Right"/>
+    <trimBars xmi:id="_acZ7ea_wEeya6tSMNzygzQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.platform" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_oXGx8Ly4EeyQMt9BSIb8cA" elementId="stickyFolderRight(minimized)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <bindingTables xmi:id="_acZ7eq_wEeya6tSMNzygzQ" contributorURI="platform:/plugin/org.eclipse.platform" bindingContext="_acZ7e6_wEeya6tSMNzygzQ">
     <bindings xmi:id="_adaoF6_wEeya6tSMNzygzQ" keySequence="CTRL+1" command="_adC0xK_wEeya6tSMNzygzQ"/>

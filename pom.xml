@@ -17,6 +17,14 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+	<repositories>
+	  <repository>
+	    <id>datapipeline</id>
+	    <url>https://maven.northconcepts.com/public/repositories/datapipeline</url>
+	    <releases/>
+	  </repository>
+	</repositories>
 
   <dependencies>
   		<dependency>
@@ -50,8 +58,24 @@
 		     <groupId>com.automation-remarks</groupId>
 			  <artifactId>video-recorder-testng</artifactId>
 			  <version>LATEST</version>
+		</dependency>		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml</artifactId>
+		    <version>5.2.2</version>
 		</dependency>
-   	
+		<dependency>
+		    <groupId>com.northconcepts</groupId>
+		    <artifactId>northconcepts-datapipeline-small-business</artifactId>
+		    <version>7.1.0</version>
+		    <scope>compile</scope>
+		</dependency>  
+		<dependency>
+		    <groupId>io.jenkins.plugins</groupId>
+		    <artifactId>screenrecorder</artifactId>
+		    <version>LATEST</version>
+		</dependency> 	
   </dependencies>
   
   <build>
