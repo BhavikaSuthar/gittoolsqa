@@ -1,5 +1,4 @@
-set projectLocation=E:\toolsqa
-cd %projectLocation%
-set classpath=%projectLocation%\src\test\java\demo\toolsqa\alertsframesandwindows;%projectLocation%\Maven Dependencies\*
-java org.testng.TestNG %projectLocation%\testng.xml
-pause
+set myProjectpath=E:\toolsqa
+cd %myProjectpath%
+set classpath=%myProjectpath%\bin;%myProjectpath%\lib\*
+java org.testng.TestNG %myProjectpath%\testng.xml
